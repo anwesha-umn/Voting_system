@@ -1,0 +1,21 @@
+
+=== Election Results ===
+Election Type: STV
+Number of Ballots: 4
+Number of Seats: 4
+Number of Candidates: 6
+
+--- STV Results ---
+Droop Quota: 1 votes
+
+Winners:
+  A | Votes: 2 | Percentage: 50.00% | Met Quota: Yes
+  B | Votes: 1 | Percentage: 25.00% | Met Quota: Yes
+  C | Votes: 2 | Percentage: 50.00% | Met Quota: Yes
+  F | Votes: 0 | Percentage: 0.00% | Met Quota: No
+
+Losers:
+  D | Votes: 0 | Percentage: 0.00%
+  E | Votes: 0 | Percentage: 0.00%
+
+=== End of Results ===

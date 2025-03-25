@@ -1,0 +1,62 @@
+\doxysection{Election.\+h}
+\hypertarget{Election_8h_source}{}\label{Election_8h_source}\index{/home/seper011/csci5801/repo-\/Team4/Project1/src/Election.h@{/home/seper011/csci5801/repo-\/Team4/Project1/src/Election.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{//}}
+\DoxyCodeLine{00002\ \textcolor{comment}{//\ Created\ by\ ASUS\ on\ 3/15/2025.}}
+\DoxyCodeLine{00003\ \textcolor{comment}{//}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#ifndef\ ELECTION\_H}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#define\ ELECTION\_H}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ "{}ballot.h"{}}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ "{}candidate.h"{}}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classElection}{Election}}\ \{}
+\DoxyCodeLine{00018\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00019\ \ \ \textcolor{keywordtype}{int}\ numSeats;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Number\ of\ seats\ to\ fill}}
+\DoxyCodeLine{00020\ \ \ \textcolor{keywordtype}{int}\ numCandidates;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Total\ candidates}}
+\DoxyCodeLine{00021\ \ \ std::vector<Ballot\ *>\ ballots;\ \ \ \ \ \ \ \textcolor{comment}{//\ List\ of\ ballots}}
+\DoxyCodeLine{00022\ \ \ std::string\ csvFileName;\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Input\ CSV\ file\ name}}
+\DoxyCodeLine{00023\ \ \ std::string\ algorithm;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ "{}STV"{}\ or\ "{}Plurality"{}}}
+\DoxyCodeLine{00024\ \ \ std::string\ auditFileName;\ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Audit\ file\ name}}
+\DoxyCodeLine{00025\ \ \ std::vector<Candidate\ *>\ candidates;\ \textcolor{comment}{//\ All\ candidates}}
+\DoxyCodeLine{00026\ \ \ std::vector<Candidate\ *>\ winners;\ \ \ \ \textcolor{comment}{//\ Winners\ list}}
+\DoxyCodeLine{00027\ \ \ std::vector<Candidate\ *>\ losers;\ \ \ \ \ \textcolor{comment}{//\ Losers\ list}}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00033\ \ \ \textcolor{comment}{//\ Constructor\ (to\ be\ implemented\ in\ derived\ classes)}}
+\DoxyCodeLine{00034\ \ \ \mbox{\hyperlink{classElection}{Election}}(std::string\ csvFileName,\ std::string\ algorithm,\ \textcolor{keywordtype}{int}\ numSeats);}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \ \ \textcolor{comment}{//\ Getters}}
+\DoxyCodeLine{00041\ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classElection_ae2569ffe764a10b09f06280dcd0460c6}{getNumSeats}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00047\ \ \ std::string\ \mbox{\hyperlink{classElection_aa9eac08772cb51e6de07ac2286ebbd6b}{getAuditFileName}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00053\ \ \ std::string\ \mbox{\hyperlink{classElection_ad5b909b142c7c2d96004c9c7c94ed21b}{getCSVFileName}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00059\ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classElection_a44782181d3501e350374d5b025e3b7e2}{getNumBallots}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00065\ \ \ std::vector<std::string>\ \mbox{\hyperlink{classElection_a7bab63a48eea86ece7a6760e78822a5e}{getNames}}()\ \textcolor{keyword}{const};\ \textcolor{comment}{//\ Returns\ candidate\ names}}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00071\ \ \ std::string\ \mbox{\hyperlink{classElection_ac7407c62a2c37a991cfd596b8200413b}{getAlgorithm}}()\ \textcolor{keyword}{const};\ \textcolor{comment}{//\ Returns\ the\ algorithm\ type}}
+\DoxyCodeLine{00072\ }
+\DoxyCodeLine{00073\ \ \ \textcolor{comment}{//\ Load\ ballots\ from\ csv}}
+\DoxyCodeLine{00078\ \ \ std::vector<Ballot\ *>\ \mbox{\hyperlink{classElection_aab658e19f73941be1ffa771f22f60f23}{setBallots}}();}
+\DoxyCodeLine{00079\ }
+\DoxyCodeLine{00080\ \ \ \textcolor{comment}{//\ Results\ handling}}
+\DoxyCodeLine{00085\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classElection_a90c42fe737f3f8062c80800cc3a867a9}{addWinner}}(\mbox{\hyperlink{classCandidate}{Candidate}}\ *candidate);}
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00091\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classElection_a5c580c3b10253deae63c9d99537b0a79}{addLoser}}(\mbox{\hyperlink{classCandidate}{Candidate}}\ *candidate);}
+\DoxyCodeLine{00092\ }
+\DoxyCodeLine{00097\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classElection_abe42eefad68f500529b5a904b04d5d1f}{printToAudit}}(FILE\ *auditFile)\ \textcolor{keyword}{const};\ \textcolor{comment}{//\ Write\ results\ to\ audit\ file}}
+\DoxyCodeLine{00098\ }
+\DoxyCodeLine{00102\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classElection_aa856968dd185883c1c38c2d6413204c1}{displayResults}}()\ \textcolor{keyword}{const};\ \textcolor{comment}{//\ Display\ results\ to\ user\ interface}}
+\DoxyCodeLine{00103\ }
+\DoxyCodeLine{00107\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classElection_a94fc652c29b2beef0e0408944a5b5cd3}{displayBallotAllocation}}()\ \textcolor{keyword}{const};\ \textcolor{comment}{//\ to\ show\ ballots\ allocation\ -\/\ testing}}
+\DoxyCodeLine{00108\ \};}
+\DoxyCodeLine{00109\ }
+\DoxyCodeLine{00110\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ ELECTION\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,5 @@
+if(EXISTS "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src[1]_tests.cmake")
+  include("/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src[1]_tests.cmake")
+else()
+  add_test(test_src_NOT_BUILT test_src_NOT_BUILT)
+endif()

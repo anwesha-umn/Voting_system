@@ -1,0 +1,155 @@
+\doxysection{Candidate Class Reference}
+\hypertarget{classCandidate}{}\label{classCandidate}\index{Candidate@{Candidate}}
+
+
+Represents a candidate within the election.  
+
+
+
+
+{\ttfamily \#include $<$candidate.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classCandidate_a89366d260f56e7ddffa649c72698f0f3}\label{classCandidate_a89366d260f56e7ddffa649c72698f0f3} 
+{\bfseries Candidate} (std\+::string name="{}"{}, int candidate\+ID=0, int votes=0, bool winner=false, bool loser=false)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCandidate}{Candidate}. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classCandidate_a62fcb6ab4038a8c31f9bd1cbc52c2ecd}{get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em returns the name of the candidate \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCandidate_aaa5ba1b924416c0b9acbf0a2bfc3b8ae}{get\+Candidate\+ID}} () const
+\begin{DoxyCompactList}\small\item\em returns the ID number of the candidate \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCandidate_add5c10246b47b2460548693f18cc18d4}{get\+Num\+Votes}} () const
+\begin{DoxyCompactList}\small\item\em returns the number of votes a candidate has received \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCandidate_a0b911849c9a245908af62003c4ad5c56}{is\+Winner}} () const
+\begin{DoxyCompactList}\small\item\em returns if the candidate is a winner \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCandidate_a65dd8292b62caa6bf48990770e8add1b}{is\+Loser}} () const
+\begin{DoxyCompactList}\small\item\em returns if the candidate is a loser \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCandidate_ab836e50441bd02cb6dbad9db2261ef3f}{update\+Votes}} (int increment)
+\begin{DoxyCompactList}\small\item\em updates the vote count of a candidate \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCandidate_a4b0c1bdf0754697e447e6c2459819487}{set\+Winner}} (bool \mbox{\hyperlink{classCandidate_a0b911849c9a245908af62003c4ad5c56}{is\+Winner}})
+\begin{DoxyCompactList}\small\item\em updates the winner status of a candidate \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCandidate_ae777328f5823352622754f547aa6a8e2}{set\+Loser}} (bool \mbox{\hyperlink{classCandidate_a65dd8292b62caa6bf48990770e8add1b}{is\+Loser}})
+\begin{DoxyCompactList}\small\item\em updates the loser status of a candidate \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a candidate within the election. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCandidate_aaa5ba1b924416c0b9acbf0a2bfc3b8ae}\label{classCandidate_aaa5ba1b924416c0b9acbf0a2bfc3b8ae} 
+\index{Candidate@{Candidate}!getCandidateID@{getCandidateID}}
+\index{getCandidateID@{getCandidateID}!Candidate@{Candidate}}
+\doxysubsubsection{\texorpdfstring{getCandidateID()}{getCandidateID()}}
+{\footnotesize\ttfamily int Candidate\+::get\+Candidate\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns the ID number of the candidate 
+
+\begin{DoxyReturn}{Returns}
+candidate ID as an integer 
+\end{DoxyReturn}
+\Hypertarget{classCandidate_a62fcb6ab4038a8c31f9bd1cbc52c2ecd}\label{classCandidate_a62fcb6ab4038a8c31f9bd1cbc52c2ecd} 
+\index{Candidate@{Candidate}!getName@{getName}}
+\index{getName@{getName}!Candidate@{Candidate}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string Candidate\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns the name of the candidate 
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\Hypertarget{classCandidate_add5c10246b47b2460548693f18cc18d4}\label{classCandidate_add5c10246b47b2460548693f18cc18d4} 
+\index{Candidate@{Candidate}!getNumVotes@{getNumVotes}}
+\index{getNumVotes@{getNumVotes}!Candidate@{Candidate}}
+\doxysubsubsection{\texorpdfstring{getNumVotes()}{getNumVotes()}}
+{\footnotesize\ttfamily int Candidate\+::get\+Num\+Votes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns the number of votes a candidate has received 
+
+\begin{DoxyReturn}{Returns}
+number of votes for a candidate as an integer 
+\end{DoxyReturn}
+\Hypertarget{classCandidate_a65dd8292b62caa6bf48990770e8add1b}\label{classCandidate_a65dd8292b62caa6bf48990770e8add1b} 
+\index{Candidate@{Candidate}!isLoser@{isLoser}}
+\index{isLoser@{isLoser}!Candidate@{Candidate}}
+\doxysubsubsection{\texorpdfstring{isLoser()}{isLoser()}}
+{\footnotesize\ttfamily bool Candidate\+::is\+Loser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns if the candidate is a loser 
+
+\begin{DoxyReturn}{Returns}
+true if the candidate is a loser, false if not 
+\end{DoxyReturn}
+\Hypertarget{classCandidate_a0b911849c9a245908af62003c4ad5c56}\label{classCandidate_a0b911849c9a245908af62003c4ad5c56} 
+\index{Candidate@{Candidate}!isWinner@{isWinner}}
+\index{isWinner@{isWinner}!Candidate@{Candidate}}
+\doxysubsubsection{\texorpdfstring{isWinner()}{isWinner()}}
+{\footnotesize\ttfamily bool Candidate\+::is\+Winner (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns if the candidate is a winner 
+
+\begin{DoxyReturn}{Returns}
+returns true if candidate is a winner, false if not 
+\end{DoxyReturn}
+\Hypertarget{classCandidate_ae777328f5823352622754f547aa6a8e2}\label{classCandidate_ae777328f5823352622754f547aa6a8e2} 
+\index{Candidate@{Candidate}!setLoser@{setLoser}}
+\index{setLoser@{setLoser}!Candidate@{Candidate}}
+\doxysubsubsection{\texorpdfstring{setLoser()}{setLoser()}}
+{\footnotesize\ttfamily void Candidate\+::set\+Loser (\begin{DoxyParamCaption}\item[{bool}]{is\+Loser }\end{DoxyParamCaption})}
+
+
+
+updates the loser status of a candidate 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+Loser} & boolean, true if the candidate is a loser, false if not. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classCandidate_a4b0c1bdf0754697e447e6c2459819487}\label{classCandidate_a4b0c1bdf0754697e447e6c2459819487} 
+\index{Candidate@{Candidate}!setWinner@{setWinner}}
+\index{setWinner@{setWinner}!Candidate@{Candidate}}
+\doxysubsubsection{\texorpdfstring{setWinner()}{setWinner()}}
+{\footnotesize\ttfamily void Candidate\+::set\+Winner (\begin{DoxyParamCaption}\item[{bool}]{is\+Winner }\end{DoxyParamCaption})}
+
+
+
+updates the winner status of a candidate 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+Winner} & boolean, true if the candidate is a winner, false if not. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classCandidate_ab836e50441bd02cb6dbad9db2261ef3f}\label{classCandidate_ab836e50441bd02cb6dbad9db2261ef3f} 
+\index{Candidate@{Candidate}!updateVotes@{updateVotes}}
+\index{updateVotes@{updateVotes}!Candidate@{Candidate}}
+\doxysubsubsection{\texorpdfstring{updateVotes()}{updateVotes()}}
+{\footnotesize\ttfamily void Candidate\+::update\+Votes (\begin{DoxyParamCaption}\item[{int}]{increment }\end{DoxyParamCaption})}
+
+
+
+updates the vote count of a candidate 
+
+
+\begin{DoxyParams}{Parameters}
+{\em increment} & number to increment votes by \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/seper011/csci5801/repo-\/\+Team4/\+Project1/src/candidate.\+h\item 
+/home/seper011/csci5801/repo-\/\+Team4/\+Project1/src/candidate.\+cpp\end{DoxyCompactItemize}

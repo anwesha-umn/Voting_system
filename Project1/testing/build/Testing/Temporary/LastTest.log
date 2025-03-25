@@ -1,0 +1,595 @@
+Start testing: Mar 21 10:52 CDT
+----------------------------------------------------------
+1/22 Testing: candidateUnitTests.CandidateConstructorTests
+1/22 Test: candidateUnitTests.CandidateConstructorTests
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=candidateUnitTests.CandidateConstructorTests" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"candidateUnitTests.CandidateConstructorTests" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = candidateUnitTests.CandidateConstructorTests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from candidateUnitTests
+[ RUN      ] candidateUnitTests.CandidateConstructorTests
+[       OK ] candidateUnitTests.CandidateConstructorTests (0 ms)
+[----------] 1 test from candidateUnitTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"candidateUnitTests.CandidateConstructorTests" end time: Mar 21 10:52 CDT
+"candidateUnitTests.CandidateConstructorTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/22 Testing: candidateUnitTests.DisplayCandidateName
+2/22 Test: candidateUnitTests.DisplayCandidateName
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=candidateUnitTests.DisplayCandidateName" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"candidateUnitTests.DisplayCandidateName" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = candidateUnitTests.DisplayCandidateName
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from candidateUnitTests
+[ RUN      ] candidateUnitTests.DisplayCandidateName
+[       OK ] candidateUnitTests.DisplayCandidateName (0 ms)
+[----------] 1 test from candidateUnitTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"candidateUnitTests.DisplayCandidateName" end time: Mar 21 10:52 CDT
+"candidateUnitTests.DisplayCandidateName" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/22 Testing: candidateUnitTests.GetCandidateIDTest
+3/22 Test: candidateUnitTests.GetCandidateIDTest
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=candidateUnitTests.GetCandidateIDTest" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"candidateUnitTests.GetCandidateIDTest" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = candidateUnitTests.GetCandidateIDTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from candidateUnitTests
+[ RUN      ] candidateUnitTests.GetCandidateIDTest
+[       OK ] candidateUnitTests.GetCandidateIDTest (0 ms)
+[----------] 1 test from candidateUnitTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"candidateUnitTests.GetCandidateIDTest" end time: Mar 21 10:52 CDT
+"candidateUnitTests.GetCandidateIDTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/22 Testing: candidateUnitTests.GetWinnerTest
+4/22 Test: candidateUnitTests.GetWinnerTest
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=candidateUnitTests.GetWinnerTest" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"candidateUnitTests.GetWinnerTest" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = candidateUnitTests.GetWinnerTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from candidateUnitTests
+[ RUN      ] candidateUnitTests.GetWinnerTest
+[       OK ] candidateUnitTests.GetWinnerTest (0 ms)
+[----------] 1 test from candidateUnitTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"candidateUnitTests.GetWinnerTest" end time: Mar 21 10:52 CDT
+"candidateUnitTests.GetWinnerTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/22 Testing: candidateUnitTests.GetLoserTest
+5/22 Test: candidateUnitTests.GetLoserTest
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=candidateUnitTests.GetLoserTest" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"candidateUnitTests.GetLoserTest" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = candidateUnitTests.GetLoserTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from candidateUnitTests
+[ RUN      ] candidateUnitTests.GetLoserTest
+[       OK ] candidateUnitTests.GetLoserTest (0 ms)
+[----------] 1 test from candidateUnitTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"candidateUnitTests.GetLoserTest" end time: Mar 21 10:52 CDT
+"candidateUnitTests.GetLoserTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/22 Testing: candidateUnitTests.GetVotesTest
+6/22 Test: candidateUnitTests.GetVotesTest
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=candidateUnitTests.GetVotesTest" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"candidateUnitTests.GetVotesTest" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = candidateUnitTests.GetVotesTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from candidateUnitTests
+[ RUN      ] candidateUnitTests.GetVotesTest
+[       OK ] candidateUnitTests.GetVotesTest (0 ms)
+[----------] 1 test from candidateUnitTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"candidateUnitTests.GetVotesTest" end time: Mar 21 10:52 CDT
+"candidateUnitTests.GetVotesTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/22 Testing: candidateUnitTests.UpdateVotesTest
+7/22 Test: candidateUnitTests.UpdateVotesTest
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=candidateUnitTests.UpdateVotesTest" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"candidateUnitTests.UpdateVotesTest" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = candidateUnitTests.UpdateVotesTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from candidateUnitTests
+[ RUN      ] candidateUnitTests.UpdateVotesTest
+[       OK ] candidateUnitTests.UpdateVotesTest (0 ms)
+[----------] 1 test from candidateUnitTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"candidateUnitTests.UpdateVotesTest" end time: Mar 21 10:52 CDT
+"candidateUnitTests.UpdateVotesTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/22 Testing: candidateUnitTests.setWinnerTest
+8/22 Test: candidateUnitTests.setWinnerTest
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=candidateUnitTests.setWinnerTest" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"candidateUnitTests.setWinnerTest" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = candidateUnitTests.setWinnerTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from candidateUnitTests
+[ RUN      ] candidateUnitTests.setWinnerTest
+[       OK ] candidateUnitTests.setWinnerTest (0 ms)
+[----------] 1 test from candidateUnitTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"candidateUnitTests.setWinnerTest" end time: Mar 21 10:52 CDT
+"candidateUnitTests.setWinnerTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/22 Testing: candidateUnitTests.setLoserTest
+9/22 Test: candidateUnitTests.setLoserTest
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=candidateUnitTests.setLoserTest" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"candidateUnitTests.setLoserTest" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = candidateUnitTests.setLoserTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from candidateUnitTests
+[ RUN      ] candidateUnitTests.setLoserTest
+[       OK ] candidateUnitTests.setLoserTest (0 ms)
+[----------] 1 test from candidateUnitTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"candidateUnitTests.setLoserTest" end time: Mar 21 10:52 CDT
+"candidateUnitTests.setLoserTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/22 Testing: BallotTest.BallotConstructor
+10/22 Test: BallotTest.BallotConstructor
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=BallotTest.BallotConstructor" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"BallotTest.BallotConstructor" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = BallotTest.BallotConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BallotTest
+[ RUN      ] BallotTest.BallotConstructor
+[       OK ] BallotTest.BallotConstructor (0 ms)
+[----------] 1 test from BallotTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BallotTest.BallotConstructor" end time: Mar 21 10:52 CDT
+"BallotTest.BallotConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/22 Testing: BallotTest.GetVotes
+11/22 Test: BallotTest.GetVotes
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=BallotTest.GetVotes" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"BallotTest.GetVotes" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = BallotTest.GetVotes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BallotTest
+[ RUN      ] BallotTest.GetVotes
+[       OK ] BallotTest.GetVotes (0 ms)
+[----------] 1 test from BallotTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BallotTest.GetVotes" end time: Mar 21 10:52 CDT
+"BallotTest.GetVotes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/22 Testing: BallotTest.GetBallotID
+12/22 Test: BallotTest.GetBallotID
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=BallotTest.GetBallotID" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"BallotTest.GetBallotID" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = BallotTest.GetBallotID
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BallotTest
+[ RUN      ] BallotTest.GetBallotID
+[       OK ] BallotTest.GetBallotID (0 ms)
+[----------] 1 test from BallotTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BallotTest.GetBallotID" end time: Mar 21 10:52 CDT
+"BallotTest.GetBallotID" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/22 Testing: PluralityBallotTest.NormalPBallotConstructor
+13/22 Test: PluralityBallotTest.NormalPBallotConstructor
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=PluralityBallotTest.NormalPBallotConstructor" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"PluralityBallotTest.NormalPBallotConstructor" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = PluralityBallotTest.NormalPBallotConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PluralityBallotTest
+[ RUN      ] PluralityBallotTest.NormalPBallotConstructor
+[       OK ] PluralityBallotTest.NormalPBallotConstructor (0 ms)
+[----------] 1 test from PluralityBallotTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PluralityBallotTest.NormalPBallotConstructor" end time: Mar 21 10:52 CDT
+"PluralityBallotTest.NormalPBallotConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/22 Testing: PluralityBallotTest.AllZeroesPBallotConstructor
+14/22 Test: PluralityBallotTest.AllZeroesPBallotConstructor
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=PluralityBallotTest.AllZeroesPBallotConstructor" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"PluralityBallotTest.AllZeroesPBallotConstructor" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = PluralityBallotTest.AllZeroesPBallotConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PluralityBallotTest
+[ RUN      ] PluralityBallotTest.AllZeroesPBallotConstructor
+[       OK ] PluralityBallotTest.AllZeroesPBallotConstructor (0 ms)
+[----------] 1 test from PluralityBallotTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PluralityBallotTest.AllZeroesPBallotConstructor" end time: Mar 21 10:52 CDT
+"PluralityBallotTest.AllZeroesPBallotConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/22 Testing: PluralityBallotTest.MultipleVotesPBallotConstructor
+15/22 Test: PluralityBallotTest.MultipleVotesPBallotConstructor
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=PluralityBallotTest.MultipleVotesPBallotConstructor" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"PluralityBallotTest.MultipleVotesPBallotConstructor" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = PluralityBallotTest.MultipleVotesPBallotConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PluralityBallotTest
+[ RUN      ] PluralityBallotTest.MultipleVotesPBallotConstructor
+[       OK ] PluralityBallotTest.MultipleVotesPBallotConstructor (0 ms)
+[----------] 1 test from PluralityBallotTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PluralityBallotTest.MultipleVotesPBallotConstructor" end time: Mar 21 10:52 CDT
+"PluralityBallotTest.MultipleVotesPBallotConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/22 Testing: PluralityBallotTest.MultipleVotesPBallotConstructor2
+16/22 Test: PluralityBallotTest.MultipleVotesPBallotConstructor2
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=PluralityBallotTest.MultipleVotesPBallotConstructor2" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"PluralityBallotTest.MultipleVotesPBallotConstructor2" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = PluralityBallotTest.MultipleVotesPBallotConstructor2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PluralityBallotTest
+[ RUN      ] PluralityBallotTest.MultipleVotesPBallotConstructor2
+[       OK ] PluralityBallotTest.MultipleVotesPBallotConstructor2 (0 ms)
+[----------] 1 test from PluralityBallotTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PluralityBallotTest.MultipleVotesPBallotConstructor2" end time: Mar 21 10:52 CDT
+"PluralityBallotTest.MultipleVotesPBallotConstructor2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/22 Testing: PluralityBallotTest.GetPreferenceTest
+17/22 Test: PluralityBallotTest.GetPreferenceTest
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=PluralityBallotTest.GetPreferenceTest" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"PluralityBallotTest.GetPreferenceTest" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = PluralityBallotTest.GetPreferenceTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PluralityBallotTest
+[ RUN      ] PluralityBallotTest.GetPreferenceTest
+[       OK ] PluralityBallotTest.GetPreferenceTest (0 ms)
+[----------] 1 test from PluralityBallotTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PluralityBallotTest.GetPreferenceTest" end time: Mar 21 10:52 CDT
+"PluralityBallotTest.GetPreferenceTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/22 Testing: STVBallotTest.NormalSTVBallotConstructor
+18/22 Test: STVBallotTest.NormalSTVBallotConstructor
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=STVBallotTest.NormalSTVBallotConstructor" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"STVBallotTest.NormalSTVBallotConstructor" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = STVBallotTest.NormalSTVBallotConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from STVBallotTest
+[ RUN      ] STVBallotTest.NormalSTVBallotConstructor
+/home/seper011/csci5801/repo-Team4/Project1/src/test_src.cc:192: Failure
+Expected equality of these values:
+  test_ballot.getPreference()
+    Which is: 1
+  preference
+    Which is: 0
+[  FAILED  ] STVBallotTest.NormalSTVBallotConstructor (0 ms)
+[----------] 1 test from STVBallotTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] STVBallotTest.NormalSTVBallotConstructor
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"STVBallotTest.NormalSTVBallotConstructor" end time: Mar 21 10:52 CDT
+"STVBallotTest.NormalSTVBallotConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/22 Testing: STVBallotTest.GetPreferenceTest
+19/22 Test: STVBallotTest.GetPreferenceTest
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=STVBallotTest.GetPreferenceTest" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"STVBallotTest.GetPreferenceTest" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = STVBallotTest.GetPreferenceTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from STVBallotTest
+[ RUN      ] STVBallotTest.GetPreferenceTest
+/home/seper011/csci5801/repo-Team4/Project1/src/test_src.cc:200: Failure
+Expected equality of these values:
+  test_ballot.getPreference()
+    Which is: 1
+  preference
+    Which is: 0
+[  FAILED  ] STVBallotTest.GetPreferenceTest (0 ms)
+[----------] 1 test from STVBallotTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] STVBallotTest.GetPreferenceTest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"STVBallotTest.GetPreferenceTest" end time: Mar 21 10:52 CDT
+"STVBallotTest.GetPreferenceTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/22 Testing: electionUnitTests.electionConstructorTest
+20/22 Test: electionUnitTests.electionConstructorTest
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=electionUnitTests.electionConstructorTest" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"electionUnitTests.electionConstructorTest" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = electionUnitTests.electionConstructorTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from electionUnitTests
+[ RUN      ] electionUnitTests.electionConstructorTest
+[       OK ] electionUnitTests.electionConstructorTest (0 ms)
+[----------] 1 test from electionUnitTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"electionUnitTests.electionConstructorTest" end time: Mar 21 10:52 CDT
+"electionUnitTests.electionConstructorTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/22 Testing: electionUnitTests.getCSVFileNameTest
+21/22 Test: electionUnitTests.getCSVFileNameTest
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=electionUnitTests.getCSVFileNameTest" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"electionUnitTests.getCSVFileNameTest" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = electionUnitTests.getCSVFileNameTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from electionUnitTests
+[ RUN      ] electionUnitTests.getCSVFileNameTest
+[       OK ] electionUnitTests.getCSVFileNameTest (0 ms)
+[----------] 1 test from electionUnitTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"electionUnitTests.getCSVFileNameTest" end time: Mar 21 10:52 CDT
+"electionUnitTests.getCSVFileNameTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/22 Testing: electionUnitTests.getNumSeatsTest
+22/22 Test: electionUnitTests.getNumSeatsTest
+Command: "/home/seper011/csci5801/repo-Team4/Project1/testing/build/test_src" "--gtest_filter=electionUnitTests.getNumSeatsTest" "--gtest_also_run_disabled_tests"
+Directory: /home/seper011/csci5801/repo-Team4/Project1/testing/build
+"electionUnitTests.getNumSeatsTest" start time: Mar 21 10:52 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = electionUnitTests.getNumSeatsTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from electionUnitTests
+[ RUN      ] electionUnitTests.getNumSeatsTest
+[       OK ] electionUnitTests.getNumSeatsTest (0 ms)
+[----------] 1 test from electionUnitTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"electionUnitTests.getNumSeatsTest" end time: Mar 21 10:52 CDT
+"electionUnitTests.getNumSeatsTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 21 10:52 CDT

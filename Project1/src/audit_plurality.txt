@@ -1,0 +1,19 @@
+
+=== Election Results ===
+Election Type: Plurality
+Number of Ballots: 3
+Number of Seats: 4
+Number of Candidates: 6
+
+--- Plurality Results ---
+Winners:
+  A | Votes: 1 | Percentage: 33.33%
+  C | Votes: 1 | Percentage: 33.33%
+  F | Votes: 1 | Percentage: 33.33%
+  B | Votes: 0 | Percentage: 0.00%
+
+Losers:
+  D | Votes: 0 | Percentage: 0.00%
+  E | Votes: 0 | Percentage: 0.00%
+
+=== End of Results ===

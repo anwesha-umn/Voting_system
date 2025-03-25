@@ -1,0 +1,13 @@
+
+=== Election Results ===
+Election Type: STV
+Number of Ballots: 4
+Number of Seats: 3
+Number of Candidates: 6
+
+--- STV Results ---
+Winners (order of election):
+
+Losers (order of elimination):
+
+=== End of Results ===

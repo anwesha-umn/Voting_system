@@ -1,0 +1,81 @@
+\doxysection{Plurality\+Ballot Class Reference}
+\hypertarget{classPluralityBallot}{}\label{classPluralityBallot}\index{PluralityBallot@{PluralityBallot}}
+
+
+Represents a plurality ballot, inherits from \doxylink{classBallot}{Ballot}.  
+
+
+
+
+{\ttfamily \#include $<$pluralityballot.\+h$>$}
+
+
+
+Inheritance diagram for Plurality\+Ballot\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{classPluralityBallot__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Plurality\+Ballot\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{classPluralityBallot__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classPluralityBallot_a8c2c3576ef34e42c56f19936dd368040}\label{classPluralityBallot_a8c2c3576ef34e42c56f19936dd368040} 
+{\bfseries Plurality\+Ballot} (std\+::vector$<$ int $>$ votes, int ballot\+ID)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classPluralityBallot}{Plurality\+Ballot}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classPluralityBallot_a6bb8673d2d7029fb26a1adb64e808e38}{get\+Preference}} () const
+\begin{DoxyCompactList}\small\item\em returns the preference of a ballot, in a Plurality ballot there is only one \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classBallot}{Ballot}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Ballot} (std\+::vector$<$ int $>$ votes, int ballot\+ID)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classBallot}{Ballot}. \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classBallot_a87fed948020d2c01626099bd665ffeab}{get\+Votes}} () const
+\begin{DoxyCompactList}\small\item\em returns the votes of a ballot \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBallot_a5fca7e315718af55d5e9030594a606e4}{get\+ID}} () const
+\begin{DoxyCompactList}\small\item\em returns the ID number of a specific ballot \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classBallot}{Ballot}}}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ int $>$ {\bfseries votes}
+\item 
+int {\bfseries ballot\+ID}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a plurality ballot, inherits from \doxylink{classBallot}{Ballot}. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classPluralityBallot_a6bb8673d2d7029fb26a1adb64e808e38}\label{classPluralityBallot_a6bb8673d2d7029fb26a1adb64e808e38} 
+\index{PluralityBallot@{PluralityBallot}!getPreference@{getPreference}}
+\index{getPreference@{getPreference}!PluralityBallot@{PluralityBallot}}
+\doxysubsubsection{\texorpdfstring{getPreference()}{getPreference()}}
+{\footnotesize\ttfamily int Plurality\+Ballot\+::get\+Preference (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns the preference of a ballot, in a Plurality ballot there is only one 
+
+\begin{DoxyReturn}{Returns}
+ID number of the preferred candidate 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/seper011/csci5801/repo-\/\+Team4/\+Project1/src/pluralityballot.\+h\item 
+/home/seper011/csci5801/repo-\/\+Team4/\+Project1/src/pluralityballot.\+cpp\end{DoxyCompactItemize}

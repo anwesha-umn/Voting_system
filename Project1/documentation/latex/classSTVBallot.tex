@@ -1,0 +1,81 @@
+\doxysection{STVBallot Class Reference}
+\hypertarget{classSTVBallot}{}\label{classSTVBallot}\index{STVBallot@{STVBallot}}
+
+
+Represents an STV ballot, inherits from \doxylink{classBallot}{Ballot}.  
+
+
+
+
+{\ttfamily \#include $<$stvballot.\+h$>$}
+
+
+
+Inheritance diagram for STVBallot\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=144pt]{classSTVBallot__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for STVBallot\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=144pt]{classSTVBallot__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classSTVBallot_a97d42ee0c8c8df0ff2137ef453ac5741}\label{classSTVBallot_a97d42ee0c8c8df0ff2137ef453ac5741} 
+{\bfseries STVBallot} (std\+::vector$<$ int $>$ votes, int ballot\+ID)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classSTVBallot}{STVBallot}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classSTVBallot_aeeb45a56a4d0bd37dff8df48af2239da}{get\+Preference}} () const
+\begin{DoxyCompactList}\small\item\em returns the preference of a ballot, in an STV ballot this is the current preference \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classBallot}{Ballot}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Ballot} (std\+::vector$<$ int $>$ votes, int ballot\+ID)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classBallot}{Ballot}. \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classBallot_a87fed948020d2c01626099bd665ffeab}{get\+Votes}} () const
+\begin{DoxyCompactList}\small\item\em returns the votes of a ballot \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBallot_a5fca7e315718af55d5e9030594a606e4}{get\+ID}} () const
+\begin{DoxyCompactList}\small\item\em returns the ID number of a specific ballot \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classBallot}{Ballot}}}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ int $>$ {\bfseries votes}
+\item 
+int {\bfseries ballot\+ID}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents an STV ballot, inherits from \doxylink{classBallot}{Ballot}. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classSTVBallot_aeeb45a56a4d0bd37dff8df48af2239da}\label{classSTVBallot_aeeb45a56a4d0bd37dff8df48af2239da} 
+\index{STVBallot@{STVBallot}!getPreference@{getPreference}}
+\index{getPreference@{getPreference}!STVBallot@{STVBallot}}
+\doxysubsubsection{\texorpdfstring{getPreference()}{getPreference()}}
+{\footnotesize\ttfamily int STVBallot\+::get\+Preference (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns the preference of a ballot, in an STV ballot this is the current preference 
+
+\begin{DoxyReturn}{Returns}
+ID number of the preferred candidate 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/seper011/csci5801/repo-\/\+Team4/\+Project1/src/stvballot.\+h\item 
+/home/seper011/csci5801/repo-\/\+Team4/\+Project1/src/stvballot.\+cpp\end{DoxyCompactItemize}

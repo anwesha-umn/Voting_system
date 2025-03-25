@@ -1,0 +1,29 @@
+unitTests.DisplayCandidateName 5 0.000792462
+unitTests.GetCandidateIDTest 4 0.000892853
+unitTests.GetVotesTest 3 0.00114752
+unitTests.UpdateVotesTest 2 0.0014279
+candidateUnitTests.DisplayCandidateName 9 0.000404326
+candidateUnitTests.GetCandidateIDTest 9 0.000404331
+candidateUnitTests.GetWinnerTest 9 0.00041667
+candidateUnitTests.GetLoserTest 9 0.000472662
+candidateUnitTests.GetVotesTest 9 0.000534048
+candidateUnitTests.UpdateVotesTest 9 0.00040427
+candidateUnitTests.CandidateConstructorTests 8 0.000470747
+candidateUnitTests.setWinnerTest 7 0.000524812
+candidateUnitTests.setLoserTest 7 0.000413099
+electionUnitTests.electionConstructorTest 6 0.000473401
+electionUnitTests.getCSVFileNameTest 4 0.000787392
+electionUnitTests.getNumSeatsTest 3 0.00117753
+BallotTest.BallotConstructor 2 0.00205108
+BallotTest.GetVotes 2 0.00158087
+BallotTest.GetBallotID 2 0.00171035
+PluralityBallotTest.NormalPBallotConstructor 2 0.00154633
+PluralityBallotTest.AllZeroesPBallotConstructor 2 0.00147684
+PluralityBallotTest.MultipleVotesPBallotConstructor 2 0.00175197
+PluralityBallotTest.MultipleVotesPBallotConstructor2 2 0.00191954
+PluralityBallotTest.GetPreferenceTest 2 0.00167723
+STVBallotTest.NormalSTVBallotConstructor 0 0
+STVBallotTest.GetPreferenceTest 0 0
+---
+STVBallotTest.NormalSTVBallotConstructor
+STVBallotTest.GetPreferenceTest

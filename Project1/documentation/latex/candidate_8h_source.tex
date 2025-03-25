@@ -1,0 +1,43 @@
+\doxysection{candidate.\+h}
+\hypertarget{candidate_8h_source}{}\label{candidate_8h_source}\index{/home/seper011/csci5801/repo-\/Team4/Project1/src/candidate.h@{/home/seper011/csci5801/repo-\/Team4/Project1/src/candidate.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{//}}
+\DoxyCodeLine{00002\ \textcolor{comment}{//\ Created\ by\ ASUS\ on\ 3/15/2025.}}
+\DoxyCodeLine{00003\ \textcolor{comment}{//}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ CANDIDATE\_H}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ CANDIDATE\_H}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCandidate}{Candidate}}\ \{}
+\DoxyCodeLine{00017\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00018\ \ \ std::string\ name;\ \textcolor{comment}{//\ Name\ of\ the\ candidate}}
+\DoxyCodeLine{00019\ \ \ \textcolor{keywordtype}{int}\ candidateID;\ \ \textcolor{comment}{//\ Unique\ ID\ for\ the\ candidate\ (index\ in\ vector)}}
+\DoxyCodeLine{00020\ \ \ \textcolor{keywordtype}{int}\ votes;\ \ \ \ \ \ \ \ \textcolor{comment}{//\ Number\ of\ votes\ the\ candidate\ has\ received}}
+\DoxyCodeLine{00021\ \ \ \textcolor{keywordtype}{bool}\ winner;\ \ \ \ \ \ \textcolor{comment}{//\ Indicates\ if\ the\ candidate\ is\ a\ winner}}
+\DoxyCodeLine{00022\ \ \ \textcolor{keywordtype}{bool}\ loser;\ \ \ \ \ \ \ \textcolor{comment}{//\ Indicates\ if\ the\ candidate\ is\ a\ loser}}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00025\ \ \ \textcolor{comment}{//\ Constructor\ with\ default\ values}}
+\DoxyCodeLine{00029\ \ \ \mbox{\hyperlink{classCandidate}{Candidate}}(std::string\ name\ =\ \textcolor{stringliteral}{"{}"{}},\ \textcolor{keywordtype}{int}\ candidateID\ =\ 0,\ \textcolor{keywordtype}{int}\ votes\ =\ 0,}
+\DoxyCodeLine{00030\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ winner\ =\ \textcolor{keyword}{false},\ \textcolor{keywordtype}{bool}\ loser\ =\ \textcolor{keyword}{false});}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \ \ \textcolor{comment}{//\ Getters}}
+\DoxyCodeLine{00037\ \ \ std::string\ \mbox{\hyperlink{classCandidate_a62fcb6ab4038a8c31f9bd1cbc52c2ecd}{getName}}()\ \textcolor{keyword}{const};\ \textcolor{comment}{//\ Returns\ the\ candidate's\ name}}
+\DoxyCodeLine{00042\ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classCandidate_aaa5ba1b924416c0b9acbf0a2bfc3b8ae}{getCandidateID}}()\ \textcolor{keyword}{const};\ \textcolor{comment}{//\ Returns\ the\ candidate's\ ID}}
+\DoxyCodeLine{00047\ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classCandidate_add5c10246b47b2460548693f18cc18d4}{getNumVotes}}()\ \textcolor{keyword}{const};\ \textcolor{comment}{//\ Returns\ the\ number\ of\ votes}}
+\DoxyCodeLine{00052\ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classCandidate_a0b911849c9a245908af62003c4ad5c56}{isWinner}}()\ \textcolor{keyword}{const};\ \textcolor{comment}{//\ Returns\ true\ if\ the\ candidate\ is\ a\ winner}}
+\DoxyCodeLine{00057\ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classCandidate_a65dd8292b62caa6bf48990770e8add1b}{isLoser}}()\ \textcolor{keyword}{const};\ \textcolor{comment}{//\ Returns\ true\ if\ the\ candidate\ is\ a\ loser}}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00059\ \ \ \textcolor{comment}{//\ Setters}}
+\DoxyCodeLine{00064\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCandidate_ab836e50441bd02cb6dbad9db2261ef3f}{updateVotes}}(\textcolor{keywordtype}{int}\ increment);\ \textcolor{comment}{//\ Updates\ the\ candidate's\ vote\ count}}
+\DoxyCodeLine{00069\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCandidate_a4b0c1bdf0754697e447e6c2459819487}{setWinner}}(\textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classCandidate_a0b911849c9a245908af62003c4ad5c56}{isWinner}});\ \textcolor{comment}{//\ Sets\ the\ candidate's\ winner\ status}}
+\DoxyCodeLine{00074\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCandidate_ae777328f5823352622754f547aa6a8e2}{setLoser}}(\textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classCandidate_a65dd8292b62caa6bf48990770e8add1b}{isLoser}});\ \textcolor{comment}{//\ Sets\ the\ candidate's\ loser\ status}}
+\DoxyCodeLine{00075\ \};}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00077\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ CANDIDATE\_H}}
+
+\end{DoxyCode}

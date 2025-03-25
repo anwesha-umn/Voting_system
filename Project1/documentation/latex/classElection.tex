@@ -1,0 +1,221 @@
+\doxysection{Election Class Reference}
+\hypertarget{classElection}{}\label{classElection}\index{Election@{Election}}
+
+
+Handles the counting of votes and determining winners of elections.  
+
+
+
+
+{\ttfamily \#include $<$Election.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classElection_a16afed4302157efb0a1b93b94d6e1f00}\label{classElection_a16afed4302157efb0a1b93b94d6e1f00} 
+{\bfseries Election} (std\+::string csv\+File\+Name, std\+::string algorithm, int num\+Seats)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classElection}{Election}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classElection_ae2569ffe764a10b09f06280dcd0460c6}{get\+Num\+Seats}} () const
+\begin{DoxyCompactList}\small\item\em returns the number of seats \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classElection_aa9eac08772cb51e6de07ac2286ebbd6b}{get\+Audit\+File\+Name}} () const
+\begin{DoxyCompactList}\small\item\em returns the name of the audit file \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classElection_ad5b909b142c7c2d96004c9c7c94ed21b}{get\+CSVFile\+Name}} () const
+\begin{DoxyCompactList}\small\item\em returns the CSV file name \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classElection_a44782181d3501e350374d5b025e3b7e2}{get\+Num\+Ballots}} () const
+\begin{DoxyCompactList}\small\item\em returns the number of ballots \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classElection_a7bab63a48eea86ece7a6760e78822a5e}{get\+Names}} () const
+\begin{DoxyCompactList}\small\item\em returns the names of the candidates \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classElection_ac7407c62a2c37a991cfd596b8200413b}{get\+Algorithm}} () const
+\begin{DoxyCompactList}\small\item\em returns the name of the algorithm type being used (STV or Plurality) \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classBallot}{Ballot}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classElection_aab658e19f73941be1ffa771f22f60f23}{set\+Ballots}} ()
+\begin{DoxyCompactList}\small\item\em Loads ballots and ballot information from the CSV file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classElection_a90c42fe737f3f8062c80800cc3a867a9}{add\+Winner}} (\mbox{\hyperlink{classCandidate}{Candidate}} \texorpdfstring{$\ast$}{*}candidate)
+\begin{DoxyCompactList}\small\item\em adds a winning candidate to the vector of winners \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classElection_a5c580c3b10253deae63c9d99537b0a79}{add\+Loser}} (\mbox{\hyperlink{classCandidate}{Candidate}} \texorpdfstring{$\ast$}{*}candidate)
+\begin{DoxyCompactList}\small\item\em adds a losing candidate to the vector of losers \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classElection_abe42eefad68f500529b5a904b04d5d1f}{print\+To\+Audit}} (FILE \texorpdfstring{$\ast$}{*}audit\+File) const
+\begin{DoxyCompactList}\small\item\em prints election information to the audit file \end{DoxyCompactList}\item 
+\Hypertarget{classElection_aa856968dd185883c1c38c2d6413204c1}\label{classElection_aa856968dd185883c1c38c2d6413204c1} 
+void {\bfseries display\+Results} () const
+\begin{DoxyCompactList}\small\item\em displays election results to the user interface \end{DoxyCompactList}\item 
+\Hypertarget{classElection_a94fc652c29b2beef0e0408944a5b5cd3}\label{classElection_a94fc652c29b2beef0e0408944a5b5cd3} 
+void {\bfseries display\+Ballot\+Allocation} () const
+\begin{DoxyCompactList}\small\item\em displays ballot allocation, used in testing \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classElection_a6cc614b99824278e4f948ec1b5d9d2f6}\label{classElection_a6cc614b99824278e4f948ec1b5d9d2f6} 
+int {\bfseries num\+Seats}
+\item 
+\Hypertarget{classElection_aa22ee1d17f2b847a5bf065aa4ff28dad}\label{classElection_aa22ee1d17f2b847a5bf065aa4ff28dad} 
+int {\bfseries num\+Candidates}
+\item 
+\Hypertarget{classElection_a17e6334c66024e5e0ebc6d7dec0c7c3f}\label{classElection_a17e6334c66024e5e0ebc6d7dec0c7c3f} 
+std\+::vector$<$ \mbox{\hyperlink{classBallot}{Ballot}} \texorpdfstring{$\ast$}{*} $>$ {\bfseries ballots}
+\item 
+\Hypertarget{classElection_a9a697e890438032c7e41caead0e76dd9}\label{classElection_a9a697e890438032c7e41caead0e76dd9} 
+std\+::string {\bfseries csv\+File\+Name}
+\item 
+\Hypertarget{classElection_a5514afac1aa55aa9be0b5fa2aba371a1}\label{classElection_a5514afac1aa55aa9be0b5fa2aba371a1} 
+std\+::string {\bfseries algorithm}
+\item 
+\Hypertarget{classElection_a07e5ef44c28d7f8b7321827948227643}\label{classElection_a07e5ef44c28d7f8b7321827948227643} 
+std\+::string {\bfseries audit\+File\+Name}
+\item 
+\Hypertarget{classElection_a6dcd0cfac5a2a9a5704e6f578ac28840}\label{classElection_a6dcd0cfac5a2a9a5704e6f578ac28840} 
+std\+::vector$<$ \mbox{\hyperlink{classCandidate}{Candidate}} \texorpdfstring{$\ast$}{*} $>$ {\bfseries candidates}
+\item 
+\Hypertarget{classElection_aa0f9e63f908b1b5161ede8ce99ba9822}\label{classElection_aa0f9e63f908b1b5161ede8ce99ba9822} 
+std\+::vector$<$ \mbox{\hyperlink{classCandidate}{Candidate}} \texorpdfstring{$\ast$}{*} $>$ {\bfseries winners}
+\item 
+\Hypertarget{classElection_ab06e9887354603cc8f7f7675c2c847e4}\label{classElection_ab06e9887354603cc8f7f7675c2c847e4} 
+std\+::vector$<$ \mbox{\hyperlink{classCandidate}{Candidate}} \texorpdfstring{$\ast$}{*} $>$ {\bfseries losers}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Handles the counting of votes and determining winners of elections. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classElection_a5c580c3b10253deae63c9d99537b0a79}\label{classElection_a5c580c3b10253deae63c9d99537b0a79} 
+\index{Election@{Election}!addLoser@{addLoser}}
+\index{addLoser@{addLoser}!Election@{Election}}
+\doxysubsubsection{\texorpdfstring{addLoser()}{addLoser()}}
+{\footnotesize\ttfamily void Election\+::add\+Loser (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCandidate}{Candidate}} \texorpdfstring{$\ast$}{*}}]{candidate }\end{DoxyParamCaption})}
+
+
+
+adds a losing candidate to the vector of losers 
+
+
+\begin{DoxyParams}{Parameters}
+{\em candidate} & pointer to the candidate \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classElection_a90c42fe737f3f8062c80800cc3a867a9}\label{classElection_a90c42fe737f3f8062c80800cc3a867a9} 
+\index{Election@{Election}!addWinner@{addWinner}}
+\index{addWinner@{addWinner}!Election@{Election}}
+\doxysubsubsection{\texorpdfstring{addWinner()}{addWinner()}}
+{\footnotesize\ttfamily void Election\+::add\+Winner (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCandidate}{Candidate}} \texorpdfstring{$\ast$}{*}}]{candidate }\end{DoxyParamCaption})}
+
+
+
+adds a winning candidate to the vector of winners 
+
+
+\begin{DoxyParams}{Parameters}
+{\em candidate} & pointer to the candidate \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classElection_ac7407c62a2c37a991cfd596b8200413b}\label{classElection_ac7407c62a2c37a991cfd596b8200413b} 
+\index{Election@{Election}!getAlgorithm@{getAlgorithm}}
+\index{getAlgorithm@{getAlgorithm}!Election@{Election}}
+\doxysubsubsection{\texorpdfstring{getAlgorithm()}{getAlgorithm()}}
+{\footnotesize\ttfamily std\+::string Election\+::get\+Algorithm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns the name of the algorithm type being used (STV or Plurality) 
+
+\begin{DoxyReturn}{Returns}
+name of the algorithm 
+\end{DoxyReturn}
+\Hypertarget{classElection_aa9eac08772cb51e6de07ac2286ebbd6b}\label{classElection_aa9eac08772cb51e6de07ac2286ebbd6b} 
+\index{Election@{Election}!getAuditFileName@{getAuditFileName}}
+\index{getAuditFileName@{getAuditFileName}!Election@{Election}}
+\doxysubsubsection{\texorpdfstring{getAuditFileName()}{getAuditFileName()}}
+{\footnotesize\ttfamily std\+::string Election\+::get\+Audit\+File\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns the name of the audit file 
+
+\begin{DoxyReturn}{Returns}
+name of the audit file as a string 
+\end{DoxyReturn}
+\Hypertarget{classElection_ad5b909b142c7c2d96004c9c7c94ed21b}\label{classElection_ad5b909b142c7c2d96004c9c7c94ed21b} 
+\index{Election@{Election}!getCSVFileName@{getCSVFileName}}
+\index{getCSVFileName@{getCSVFileName}!Election@{Election}}
+\doxysubsubsection{\texorpdfstring{getCSVFileName()}{getCSVFileName()}}
+{\footnotesize\ttfamily std\+::string Election\+::get\+CSVFile\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns the CSV file name 
+
+\begin{DoxyReturn}{Returns}
+name of the CSV file as a string 
+\end{DoxyReturn}
+\Hypertarget{classElection_a7bab63a48eea86ece7a6760e78822a5e}\label{classElection_a7bab63a48eea86ece7a6760e78822a5e} 
+\index{Election@{Election}!getNames@{getNames}}
+\index{getNames@{getNames}!Election@{Election}}
+\doxysubsubsection{\texorpdfstring{getNames()}{getNames()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ Election\+::get\+Names (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns the names of the candidates 
+
+\begin{DoxyReturn}{Returns}
+candidate names as a string vector 
+\end{DoxyReturn}
+\Hypertarget{classElection_a44782181d3501e350374d5b025e3b7e2}\label{classElection_a44782181d3501e350374d5b025e3b7e2} 
+\index{Election@{Election}!getNumBallots@{getNumBallots}}
+\index{getNumBallots@{getNumBallots}!Election@{Election}}
+\doxysubsubsection{\texorpdfstring{getNumBallots()}{getNumBallots()}}
+{\footnotesize\ttfamily int Election\+::get\+Num\+Ballots (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns the number of ballots 
+
+\begin{DoxyReturn}{Returns}
+number of ballots 
+\end{DoxyReturn}
+\Hypertarget{classElection_ae2569ffe764a10b09f06280dcd0460c6}\label{classElection_ae2569ffe764a10b09f06280dcd0460c6} 
+\index{Election@{Election}!getNumSeats@{getNumSeats}}
+\index{getNumSeats@{getNumSeats}!Election@{Election}}
+\doxysubsubsection{\texorpdfstring{getNumSeats()}{getNumSeats()}}
+{\footnotesize\ttfamily int Election\+::get\+Num\+Seats (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns the number of seats 
+
+\begin{DoxyReturn}{Returns}
+number of seats 
+\end{DoxyReturn}
+\Hypertarget{classElection_abe42eefad68f500529b5a904b04d5d1f}\label{classElection_abe42eefad68f500529b5a904b04d5d1f} 
+\index{Election@{Election}!printToAudit@{printToAudit}}
+\index{printToAudit@{printToAudit}!Election@{Election}}
+\doxysubsubsection{\texorpdfstring{printToAudit()}{printToAudit()}}
+{\footnotesize\ttfamily void Election\+::print\+To\+Audit (\begin{DoxyParamCaption}\item[{FILE \texorpdfstring{$\ast$}{*}}]{audit\+File }\end{DoxyParamCaption}) const}
+
+
+
+prints election information to the audit file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em audit\+File} & FILE pointer to the audit file \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classElection_aab658e19f73941be1ffa771f22f60f23}\label{classElection_aab658e19f73941be1ffa771f22f60f23} 
+\index{Election@{Election}!setBallots@{setBallots}}
+\index{setBallots@{setBallots}!Election@{Election}}
+\doxysubsubsection{\texorpdfstring{setBallots()}{setBallots()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{classBallot}{Ballot}} \texorpdfstring{$\ast$}{*} $>$ Election\+::set\+Ballots (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Loads ballots and ballot information from the CSV file. 
+
+\begin{DoxyReturn}{Returns}
+A vector of \doxylink{classBallot}{Ballot} pointers 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/seper011/csci5801/repo-\/\+Team4/\+Project1/src/Election.\+h\item 
+/home/seper011/csci5801/repo-\/\+Team4/\+Project1/src/Election.\+cpp\end{DoxyCompactItemize}
