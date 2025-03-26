@@ -10,12 +10,10 @@ Droop Quota: 1 votes
 
 Winners:
   A | Votes: 2 | Percentage: 50.00% | Met Quota: Yes
-  B | Votes: 1 | Percentage: 25.00% | Met Quota: Yes
-  C | Votes: 2 | Percentage: 50.00% | Met Quota: Yes
-  F | Votes: 0 | Percentage: 0.00% | Met Quota: No
+  B | Votes: 2 | Percentage: 50.00% | Met Quota: Yes
+  C | Votes: 1 | Percentage: 25.00% | Met Quota: Yes
+  D | Votes: 1 | Percentage: 25.00% | Met Quota: Yes
 
 Losers:
-  D | Votes: 0 | Percentage: 0.00%
-  E | Votes: 0 | Percentage: 0.00%
 
 === End of Results ===

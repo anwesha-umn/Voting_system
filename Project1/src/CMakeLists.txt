@@ -12,6 +12,7 @@ endif()
 
 # List all source and header files
 set(SOURCES
+        main.cpp
         userinterface.cpp
         candidate.cpp
         Election.cpp

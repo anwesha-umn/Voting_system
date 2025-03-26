@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/test_src[1]_tests.cmake")
+  include("C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/test_src[1]_tests.cmake")
+else()
+  add_test(test_src_NOT_BUILT test_src_NOT_BUILT)
+endif()

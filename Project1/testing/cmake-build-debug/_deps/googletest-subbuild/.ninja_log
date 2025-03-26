@@ -1,0 +1,21 @@
+# ninja log v6
+2	48	7646588819753306	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	85e235b98fab2592
+2	48	7646588819753306	C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	85e235b98fab2592
+49	1011	7646588829381227	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	a377e52af08ec993
+49	1011	7646588829381227	C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	a377e52af08ec993
+1011	1055	7646588829832538	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	37fe549fbf503346
+1011	1055	7646588829832538	C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	37fe549fbf503346
+1055	1100	7646588830271326	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	51008cfae54d4ac9
+1055	1100	7646588830271326	C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	51008cfae54d4ac9
+1100	1145	7646588830716705	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	ab5dc717a66a3559
+1100	1145	7646588830716705	C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	ab5dc717a66a3559
+1145	1188	7646588831159578	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	1ec701695d6232c
+1145	1188	7646588831159578	C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	1ec701695d6232c
+1188	1233	7646588831606405	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	fd81536b611b6446
+1188	1233	7646588831606405	C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	fd81536b611b6446
+1233	1277	7646588832037218	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	6335693a5ccc322a
+1233	1277	7646588832037218	C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	6335693a5ccc322a
+1277	1339	7646588832668288	CMakeFiles/googletest-populate-complete	8e2aa937cc922347
+1277	1339	7646588832668288	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	8e2aa937cc922347
+1277	1339	7646588832668288	C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	8e2aa937cc922347
+1277	1339	7646588832668288	C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	8e2aa937cc922347

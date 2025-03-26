@@ -1,0 +1,15 @@
+# ninja log v6
+23	312	7646588868933009	CMakeFiles/test_src.dir/C_/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/src/ballot.cpp.obj	302a01d3806862ca
+27	318	7646588868973712	CMakeFiles/test_src.dir/C_/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/src/stvballot.cpp.obj	69fc4131a5384bd8
+31	472	7646588869014381	CMakeFiles/test_src.dir/C_/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/src/pluralityballot.cpp.obj	e2de1f4f1a24193f
+19	511	7646588868892095	CMakeFiles/test_src.dir/C_/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/src/candidate.cpp.obj	13fc47fb20391288
+35	1081	7646588869054369	CMakeFiles/test_src.dir/C_/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/src/userinterface.cpp.obj	ab6cb71dd573031d
+16	1366	7646588868862129	CMakeFiles/test_src.dir/C_/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/src/Election.cpp.obj	dea5c5f64f456204
+9	1381	7646588868795525	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	76889a08689fa0de
+13	1836	7646588868826163	CMakeFiles/test_src.dir/C_/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/src/test_src.cc.obj	4da3f974f653a2f7
+4	5869	7646588868744702	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	b09489f1b59dcb7a
+5871	7883	7646588927402677	lib/libgtest.a	e25c9528b70d6041
+7883	7940	7646588947529680	lib/libgtest_main.a	503e3a37b1aecc4c
+7940	10549	7646588974129109	test_src.exe	1c91eb2a433b2f63
+7940	10549	7646588974129109	test_src[1]_tests.cmake	1c91eb2a433b2f63
+7940	10549	7646588974129109	C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/test_src[1]_tests.cmake	1c91eb2a433b2f63

@@ -13,7 +13,7 @@ private:
 public:
     // Constructor to initialize default values
     UserInterface() : numSeats(3), csvFileName("../testing/stv_ballots.csv"),
-                      algorithm("STV"), auditFileName("audit.txt"), shuffle_stv(false) {}
+                      algorithm("STV"), auditFileName("audit.txt"), shuffle_stv(true) {}
 
     void getInfo();
 

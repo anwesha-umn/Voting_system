@@ -1,0 +1,3 @@
+C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/ASUS/CLionProjects/GIT_COMM3/Voting_system/Project1/testing/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

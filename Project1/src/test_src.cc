@@ -252,6 +252,64 @@ protected:
 //   EXPECT_EQ(seatP, 6) << "getNumSeats() not set up properly";
 // }
 
+
+
+
+// UserInterface tests
+class UserInterfaceTest : public ::testing::Test {
+protected:
+  void SetUp() override {
+    // Initialize default test parameters
+    csv_file = "../testing/stv_ballots.csv";       // Default CSV filename
+    num_seats = 3;               // Default number of seats
+    algorithm = "STV";           // Default algorithm
+    audit_file = "audit.txt";    // Default audit filename
+    shuffle = true;              // Default shuffle setting
+  }
+
+  // Test parameters mirroring actual class members
+  std::string csv_file;         // Stores CSV filename for testing
+  int num_seats;                // Stores seat count for testing
+  std::string algorithm;        // Stores algorithm type for testing
+  std::string audit_file;       // Stores audit filename for testing
+  bool shuffle;                 // Stores shuffle setting for testing
+
+  // Primary test subject
+  UserInterface ui;             // Instance of class under test
+};
+
+
+// Test 1: Verify getter for CSV filename
+TEST_F(UserInterfaceTest, GetCsvFileNameTest) {
+  EXPECT_EQ(ui.getCsvFileName(), csv_file)
+      << "getCsvFileName() should return the correct CSV filename";
+}
+
+// Test 2: Verify getter for number of seats
+TEST_F(UserInterfaceTest, GetNumSeatsTest) {
+  EXPECT_EQ(ui.getNumSeats(), num_seats)
+      << "getNumSeats() should return the correct number of seats";
+}
+
+// Test 3: Verify getter for algorithm
+TEST_F(UserInterfaceTest, GetAlgorithmTest) {
+  EXPECT_EQ(ui.getAlgorithm(), algorithm)
+      << "getAlgorithm() should return the correct algorithm type";
+}
+
+// Test 4: Verify getter for audit filename
+TEST_F(UserInterfaceTest, GetAuditFileNameTest) {
+  EXPECT_EQ(ui.getAuditFileName(), audit_file)
+      << "getAuditFileName() should return the correct audit filename";
+}
+
+// Test 5: Verify getter for shuffle setting
+TEST_F(UserInterfaceTest, GetShuffleStvTest) {
+  EXPECT_TRUE(ui.getShuffleStv())
+      << "getShuffleStv() should return the correct shuffle setting";
+}
+
+
 int main(int argc, char **argv) {
   testing::InitGoogleTest(&argc, argv);
   return RUN_ALL_TESTS();
