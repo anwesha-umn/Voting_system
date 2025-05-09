@@ -3,12 +3,6 @@
 
 ## Project2 - Agile / Scrum - VotingSystem
 
-### Team Members
-- **Annabelle Coler** - coler018@umn.edu
-- **Anwesha Samaddar** - samad037@umn.edu
-- **Hilton Nguyen** - nguy4798@umn.edu
-- **Zoe Sepersky** - seper011@umn.edu
-
 ## How to Compile the System
 
 ### Voting System Build / Clean Using Included Makefile
