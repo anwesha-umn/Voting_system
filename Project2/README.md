@@ -34,13 +34,14 @@ The screenshot below shows how the **PV election proceeds**, the display of resu
 The following screenshot shows the working of the **MV election** with all valid ballots:
 
 <p align="center">
-<img src="https://github.umn.edu/umn-csci-5801-02-S25/repo-Team4/assets/32292/8cdb9a97-7e1a-4e0f-bb67-75d6b8549e3b" alt="MV Election" width="850"/>
+<img src="https://github.com/user-attachments/assets/0cfee66e-739d-43d7-96df-7db98f8a6345" alt="MV Election" width="850"/>
 </p>
+
 
 Finally, here is an example of running the **STV election** with valid and invalid ballots: 
 
 <p align="center">
-<img src="https://github.umn.edu/umn-csci-5801-02-S25/repo-Team4/assets/32292/c688040f-b3d9-464a-b27d-1f194f1a3169" alt="STV Election" width="850"/>
+<img src="https://github.com/user-attachments/assets/02bbc25c-0641-4908-b81e-9b54cb78ff00" alt="STV Election" width="850"/>
 </p>
 
 To clean the `src` directory of object files and the executable, type:
