@@ -26,8 +26,9 @@ Project2/src $ ./election_app
 
 The screenshot below shows how the **PV election proceeds**, the display of results and the reporting of valid /invalid ballots, list of winners and losers and election stats. The user inputs the number of files, csv file names, and audit file name :
 <p align="center">
-<img src="https://github.umn.edu/umn-csci-5801-02-S25/repo-Team4/assets/32292/8c14935a-b5cf-4ca7-b263-dfaea5b639de" alt="PV Election" width="850"/>
+<img src="https://github.com/user-attachments/assets/85bd1d6a-9069-4818-9784-65aff3cae4df" alt="PV Election" width="850"/>
 </p>
+
 
 
 The following screenshot shows the working of the **MV election** with all valid ballots:
